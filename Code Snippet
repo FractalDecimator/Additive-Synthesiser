@@ -1,0 +1,6 @@
+for (int i=0; i<LENGTH; i++) { //
+Step across table
+  float v = (AMP*sin((PI2/LENGTH)*i)); // Fundamental
+  v += (AMP/4*sin((PI2/LENGTH)*(i*3))); // New step
+  wave[i]=int(v+OFFSET); // Store as integer
+  }
